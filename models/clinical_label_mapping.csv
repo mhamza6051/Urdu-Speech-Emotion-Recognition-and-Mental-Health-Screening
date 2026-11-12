@@ -1,0 +1,5 @@
+emotion_label,clinical_label
+Angry,anxiety
+Happy,healthy
+Neutral,stress
+Sad,depression

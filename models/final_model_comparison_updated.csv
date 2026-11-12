@@ -1,0 +1,7 @@
+Model,F1_Score,Remarks
+SVM_RBF (Handcrafted Features) - FINAL,0.913383,Best overall performance
+LogisticRegression (wav2vec2 embeddings),0.876948,Strong pretrained embedding model
+RandomForest (wav2vec2 embeddings),0.826583,Moderate performance
+SVM_RBF (wav2vec2 embeddings),0.839403,Good but weaker than LR
+XGBoost (wav2vec2 embeddings),0.77759,Lowest among wav2vec2 models
+CNN (Spectrogram - Failed),0.35,"Severe overfitting, rejected"
